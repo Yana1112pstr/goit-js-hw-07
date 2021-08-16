@@ -4,8 +4,6 @@ console.log(nameInput);
 const nameOutput = document.querySelector('#name-output');
 console.log(nameOutput);
 
-// nameOutput.textContent(nameInput.value);
-// console.log(nameOutput);
 
 nameInput.addEventListener('input', onInputChange);
 
